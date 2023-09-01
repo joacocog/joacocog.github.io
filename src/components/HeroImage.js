@@ -1,19 +1,18 @@
 import "./HeroStyles.css";
 import React from 'react';
 import HeroBg from "../assets/hero-bg.jpg";
-import { Link } from "react-router-dom";
 
 const HeroImage = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="home">
         <div className="hero-bg">
             <img className="hero-image" src={HeroBg} alt="hero-img" />
         </div>
         <div className="content">
-            <p>HI, I'M A FREELANCER.</p>
-            <h1>REACT DEVELOPER</h1>
+            <p>HI, I'M <span className="span">JOAQUIN</span></p>
+            <h1>FULL STACK DEVELOPER</h1>
             <div>
-                <Link to="/" className="btn">PROJECTS</Link>
+                <a href="#work" className="btn">View my work</a>
             </div>
         </div>
     </div>

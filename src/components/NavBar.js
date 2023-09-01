@@ -25,19 +25,19 @@ const NavBar = () => {
         <Link to="mailto:joacocog@icloud.com"><h2>joacocog@icloud.com</h2></Link>
         <ul className={click ? ("nav-menu active") : ("nav-menu")}>
             <li>
-                <Link to="#">Home</Link>
+                <a href="#home">Home</a>
             </li>
             <li> 
-                <Link to="#">About me</Link>
+                <a href="#about">About me</a>
             </li>
             <li>
-                <Link to="#">Skills</Link>
+                <a href="#skills">Skills</a>
             </li>
             <li>
-                <Link to="#">Projects</Link>
+                <a href="#work">Work</a>
             </li>
             <li>
-                <Link to="#">Contact</Link>
+                <a href="#contact">Contact Me</a>
             </li>  
         </ul>
         <div className="burguer-menu" onClick={handleClick}>

@@ -9,12 +9,14 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
-    padding-bottom: 5rem;
 }
 
 .project-card{
     background-color: #1a1919;
     padding: 1.2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project-card img{
@@ -26,10 +28,11 @@
     padding: 1rem 0;
 }
 
-.project-details p{
+.project-description {
     padding-bottom: 1rem;
     font-size: 1.1rem;
     text-align: justify ;
+    font-weight: 300;
 }
 
 .project-btn{
