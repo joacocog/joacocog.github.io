@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.28bf423f.css",
+    "main.js": "/static/js/main.714a643a.js",
+    "static/media/project3.png": "/static/media/project3.51d5020b43c5849fb4c8.png",
+    "static/media/project2.png": "/static/media/project2.47e0b3d2821df24a019a.png",
+    "static/media/project1.png": "/static/media/project1.596e77d89a7910793bcc.png",
+    "static/media/me-image.png": "/static/media/me-image.eacee316a54a1163ebe3.png",
+    "static/media/project4.png": "/static/media/project4.35aa2227354fbb3ed564.png",
+    "static/media/JoaquinCognigni-resume.pdf": "/static/media/JoaquinCognigni-resume.f61a43008de2439f8b8b.pdf",
+    "static/media/hero-bg.jpg": "/static/media/hero-bg.cf2364827d8b8a98642e.jpg",
+    "static/media/project5.png": "/static/media/project5.a44623e1925461628adf.png",
+    "static/media/project6.png": "/static/media/project6.b700cbe8551d3f661102.png",
+    "index.html": "/index.html",
+    "main.28bf423f.css.map": "/static/css/main.28bf423f.css.map",
+    "main.714a643a.js.map": "/static/js/main.714a643a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28bf423f.css",
+    "static/js/main.714a643a.js"
+  ]
+}
